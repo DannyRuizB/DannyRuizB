@@ -26,11 +26,11 @@ Based in Torrevieja, Spain — open to relocation.
 
 ## // projects
 
-### [didactic-dashboard](https://github.com/DannyRuizB/didactic-dashboard)
+### [didactic-dashboard](https://github.com/DannyRuizB/didactic-dashboard) &middot; [live demo](https://didactic-dashboard.onrender.com)
 
-Simple self-hosted monitoring dashboard. Add any host by IP or hostname and watch its status in real time — ICMP ping or TCP connect check, SQLite persistence, Docker Compose deploy. A lightweight, readable alternative to Zabbix for home labs and learning.
+Simple self-hosted monitoring dashboard. Add any host by IP or hostname and watch its status in real time — ICMP ping, TCP connect, or SSH with live CPU / RAM / disk / load / uptime metrics. SQLite persistence, Docker Compose deploy, published to Docker Hub as `dannyruizb/didactic-dashboard`.
 
-**Stack**: Node.js · Express · SQLite · Docker
+**Stack**: Node.js · Express · SQLite · Docker · deployed on Render
 
 ## // contact
 
