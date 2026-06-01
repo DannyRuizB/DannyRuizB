@@ -33,6 +33,12 @@ End-to-end deployment of a **Wiki.js** service on **Docker Compose** (PostgreSQL
 
 **Stack**: Docker Compose · PostgreSQL · Nginx · Debian · Bash · cron
 
+### [debian-hardening](https://github.com/DannyRuizB/debian-hardening)
+
+Idempotent **Bash** script that turns a fresh Debian server into a secure baseline: sudo user + SSH key, key-only SSH (with a lockout guard), UFW, Fail2Ban and automatic security updates. Real `--dry-run` and per-step flags.
+
+**Stack**: Bash · Debian · SSH · UFW · Fail2Ban
+
 ### [lanscope](https://github.com/DannyRuizB/lanscope) · [live demo](https://lanscope-demo.onrender.com)
 
 Visual **LAN scanner** on top of `nmap`: point it at a CIDR, see who's there, browse the topology and diff scans over time. Runs in Docker with host networking; multi-arch image on GHCR.
